@@ -46,7 +46,7 @@ const structuredData = ref({
   }
 })
 
-useMeta({
+useSeoMeta({
     script: [
         {
             type: 'application/ld-json',

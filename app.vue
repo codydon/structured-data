@@ -8,7 +8,7 @@ import { ref } from 'vue'
 const structuredData = ref({
   "@context": "https://schema.org/",
   "@type": "JobPosting",
-  "title": "Software Engineer",
+  "title": "Hiring Manager",
   "description": "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas and cultures leads to the creation of better products and services.</p>",
   "identifier": {
       "@type": "PropertyValue",

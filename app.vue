@@ -51,19 +51,7 @@ script: [{
     type: 'application/ld+json',
     innerHTML: JSON.stringify({
         "type": "application/ld+json",
-        "textContent": {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "testing structured data",
-            "image": [
-                ""
-            ],
-            "author": [{
-                "@type": "Person",
-                "name": "",
-                "url": ""
-            }]
-        }
+        "textContent": structuredData.value
     })
 }],
 __dangerouslyDisableSanitizers: ['script'],

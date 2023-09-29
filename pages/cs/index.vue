@@ -5,9 +5,8 @@
   </template>
   <script setup>
 
-onBeforeMount(()=>{
-    generateStructuredData();
-})
+
+
 
 const structuredData = ref('')
   
@@ -60,6 +59,9 @@ const structuredData = ref('')
     })
     console.log('GENERATED STRUCTURED DATA', structuredData.value)
   }
+
+
+generateStructuredData();
   
   //layout
   definePageMeta({

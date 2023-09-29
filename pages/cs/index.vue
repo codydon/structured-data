@@ -12,7 +12,7 @@
   
   // Function to generate the JSON-LD script
   // const generateStructuredData = () => {
-    const structuredData = {
+    const structuredData = ref({
       "@context": "https://schema.org",
       "@type": "JobPosting",
       "title": 'job.value.title',
@@ -45,7 +45,7 @@
         }
       },
     //   // "responsibilities": "..."
-    };
+    });
   
     useHead({
       script: [{

@@ -8,11 +8,11 @@
 
 
 
-const structuredData = ref('')
+// const structuredData = ref('')
   
   // Function to generate the JSON-LD script
-  const generateStructuredData = () => {
-    structuredData.value = {
+  // const generateStructuredData = () => {
+    const structuredData = {
       "@context": "https://schema.org",
       "@type": "JobPosting",
       "title": 'job.value.title',
@@ -44,7 +44,7 @@ const structuredData = ref('')
           "unitText": "MONTH"
         }
       },
-      // "responsibilities": "..."
+    //   // "responsibilities": "..."
     };
   
     useHead({
@@ -58,10 +58,10 @@ const structuredData = ref('')
       __dangerouslyDisableSanitizers: ['script'],
     })
     console.log('GENERATED STRUCTURED DATA', structuredData.value)
-  }
+  // }
 
 
-generateStructuredData();
+// generateStructuredData();
   
   //layout
   definePageMeta({

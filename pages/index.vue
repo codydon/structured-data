@@ -1,5 +1,5 @@
 <template>
-  <div>{{ structuredData }}</div>
+  <pre>{{ structuredData }}</pre>
 </template>
 
 <script setup>
